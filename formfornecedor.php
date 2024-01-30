@@ -14,7 +14,7 @@
 			<?php include 'topo.php' ?>
 
 			<main class="content">
-				<form action="" method="post">
+				<form action="cadastrofornecedor.php" method="post">
 					<div class="container-fluid p-0">
 
 						<h1 class="h3 mb-3">Cadastro do Fornecdor</h1>
