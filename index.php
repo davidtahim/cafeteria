@@ -15,13 +15,13 @@
 			  
 			    <h1 class="h3 mb-3 fw-normal">Entrar</h1>
 			
-			    <div class="form-floating py-4">
-			      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-			      <label for="floatingInput">Endereço de e-mail</label>
+			    <div class="form-floating py-2">
+			      <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" autocomplete="off">
+			      <label for="email">Endereço de e-mail</label>
 			    </div>
-			    <div class="form-floating py-4">
-			      <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
-			      <label for="floatingPassword">Senha</label>
+			    <div class="form-floating py-2">
+			      <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
+			      <label for="senha">Senha</label>
 			    </div>
 				   
 			    <button class="btn btn-primary w-100 py-2" type="submit">Entrar</button>
@@ -35,16 +35,24 @@
 			  
 			    <h1 class="h3 mb-3 fw-normal">Registar</h1>
 			
-			    <div class="form-floating py-4">
-			      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-			      <label for="floatingInput">Endereço de e-mail</label>
+			    <div class="form-floating py-2">
+			      <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+			      <label for="nome">Nome</label>
+			    </div>
+			    <div class="form-floating py-2">
+			      <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+			      <label for="email">Endereço de e-mail</label>
+			    </div>
+			    <div class="form-floating py-2">
+			      <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
+			      <label for="senha">Senha</label>
 			    </div>
 			    <div class="form-floating py-4">
-			      <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
-			      <label for="floatingPassword">Senha</label>
+			      <input type="password" class="form-control" id="confirmasenha" name="confirmasenha" placeholder="Confirme sua senha">
+			      <label for="confirmasenha">Confirmar senha</label>
 			    </div>
 				   
-			    <button class="btn btn-primary w-100 py-2" type="submit">Entrar</button>
+			    <button class="btn btn-primary w-100 py-2" type="submit">Registrar</button>
 			  </form>
 			</main>
 		  </div>
