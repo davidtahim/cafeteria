@@ -1,0 +1,5 @@
+.line-separator {
+    border-left: 1px solid; 
+    color: black;
+    padding: 0 20px 0 20px;
+}

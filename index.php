@@ -30,7 +30,7 @@
 		  </div>
 		  <div class="col-6">
 		  	
-			<main class="form-signin w-100 m-auto">
+			<main class="form-signin w-100 m-auto line-separator">
 			  <form action="registar.php" method="post">
 			  
 			    <h1 class="h3 mb-3 fw-normal">Registar</h1>
