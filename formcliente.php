@@ -219,6 +219,7 @@
 													class="btn btn-warning btn-lg"
 													data-bs-toggle="modal"
 													data-bs-target="#modaleditar"
+													data-id='<?php echo $id ?>'
 													
 												>
 												<i class="fa-solid fa-user-pen"></i>
@@ -245,7 +246,7 @@
 														<div class="modal-content">
 															<div class="modal-header">
 																<h5 class="modal-title" id="modalTitleId">
-																	Modal title
+																	Editar
 																</h5>
 																<button
 																	type="button"
@@ -254,7 +255,149 @@
 																	aria-label="Close"
 																></button>
 															</div>
-															<div class="modal-body">Body</div>
+															<div class="modal-body">
+																<form action="atualizarcliente.php" method="post">
+																<div class="row">
+							<div class="mb-3 col-12">
+							<label for="nome" class="form-label">Nome</label>
+							<input
+								type="text"
+								class="form-control"
+								name="nome"
+								id="nome"
+								
+								placeholder="Digite o nome do cliente"
+							/>
+							
+						</div>
+						<div class="mb-3 col-12">
+							<label for="email" class="form-label">E-mail</label>
+							<input
+								type="email"
+								class="form-control"
+								name="email"
+								id="email"
+								
+								placeholder="coloque o e-mail no formato abc@mail.com"
+							/>
+							
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="mb-3 col-12">
+							<label for="telefone" class="form-label">Telefone</label>
+							<input
+								type="text"
+								class="form-control"
+								name="telefone"
+								id="telefone"
+								
+								placeholder="(99)9 9999-9999"
+							/>
+						
+						</div>
+						<div class="mb-3 col-12">
+							<label for="cpfcnpj" class="form-label">CPF/CNPJ</label>
+							<input
+								type="text"
+								class="form-control"
+								name="cpfcnpj"
+								id="cpfcnpj"
+								
+								placeholder="Somente Números"
+							/>
+						
+						</div>
+						<div class="mb-3 col-12">
+							<label for="cep" class="form-label">CEP</label>
+							<input
+								type="text"
+								class="form-control"
+								name="cep"
+								id="cep"
+								maxlength="8"
+								onkeyup="viaCEP()"								
+								placeholder="Somente Números"
+							/>
+						
+						</div>
+						
+						
+					</div>
+					<div class="row">
+						<div class="mb-3 col-12">
+							<label for="logradouro" class="form-label">Logradouro</label>
+							<input
+								type="text"
+								class="form-control"
+								name="logradouro"
+								id="logradouro"
+								
+								placeholder="Digite a rua"
+							/>
+							
+						</div>
+						<div class="mb-3 col-12">
+							<label for="numero" class="form-label">Nº</label>
+							<input
+								type="text"
+								class="form-control"
+								name="numero"
+								id="numero"
+								placeholder="Número da casa"
+							/>
+						</div>
+						<div class="mb-3 col-12">
+							<label for="complemento" class="form-label">Complemento</label>
+							<input
+								type="text"
+								class="form-control"
+								name="complemento"
+								id="complemento"
+								
+								placeholder="Digite o complemento"
+							/>
+							
+						</div>
+						<div class="mb-3 col-12">
+							<label for="bairro" class="form-label">Bairro</label>
+							<input
+								type="text"
+								class="form-control"
+								name="bairro"
+								id="bairro"
+								placeholder="Qual o bairro "
+							/>
+						</div>
+						<div class="row">
+						<div class="mb-3 col-12">
+							<label for="cidade" class="form-label">Cidade</label>
+							<input
+								type="text"
+								class="form-control"
+								name="cidade"
+								id="cidade"
+								
+								placeholder="Digite a cidade"
+							/>
+							
+						</div>
+						<div class="mb-3 col-12">
+							<label for="uf" class="form-label">Estado</label>
+							<input
+								type="text"
+								class="form-control"
+								name="uf"
+								id="uf"
+								placeholder="Digite o estado"
+							/>
+						
+						</div>
+						</div>	
+					</div>
+																</form>
+															</div>
 															<div class="modal-footer">
 																<button
 																	type="button"
