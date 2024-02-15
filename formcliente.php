@@ -396,7 +396,7 @@
 						</div>
 						</div>	
 					</div>
-																</form>
+																
 															</div>
 															<div class="modal-footer">
 																<button
@@ -407,6 +407,7 @@
 																	Fechar
 																</button>
 																<button type="button" class="btn btn-primary">Salvar</button>
+															</form>
 															</div>
 														</div>
 													</div>
